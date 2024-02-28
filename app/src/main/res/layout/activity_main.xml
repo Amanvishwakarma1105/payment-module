@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#3987D5"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="vertical"
+
+       android:padding="40dp"
+       android:layout_gravity="top"
+       android:layout_height="match_parent"
+       >
+
+       <TextView
+           android:layout_width="match_parent"
+           android:text="Book Your Slot"
+           android:textAlignment="center"
+           android:textSize="30dp"
+           android:textColor="@color/white"
+
+           android:layout_height="wrap_content">
+
+       </TextView>
+
+       <EditText
+           android:layout_width="match_parent"
+           android:id="@+id/Numberid"
+           android:inputType="text"
+           android:hint="Number Id ...(MH 03 AB 1123)"
+           android:textColor="@color/white"
+           android:textColorHint="@color/white"
+           android:layout_height="50dp" />
+       <EditText
+           android:layout_width="match_parent"
+           android:id="@+id/slot_num"
+           android:inputType="number"
+           android:hint="Slot Number"
+           android:textColor="@color/white"
+           android:textColorHint="@color/white"
+           android:layout_height="48dp"
+           />
+
+       <EditText
+           android:layout_width="match_parent"
+           android:id="@+id/time"
+           android:inputType="number"
+           android:hint="Hours"
+           android:textColor="@color/white"
+           android:textColorHint="@color/white"
+           android:layout_height="50dp" />
+
+
+       <TextView
+           android:id="@+id/total"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:inputType="number"
+           android:text="Total"
+           android:textColor="@color/white" />
+
+       <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_gravity="center"
+                   android:layout_height="wrap_content"    >
+
+           <Button
+               android:id="@+id/fare"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:backgroundTint="#EF148C"
+               android:text="FARE" />
+
+           <Button
+               android:id="@+id/book"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:backgroundTint="#EF148C"
+               android:text="BOOK"
+               android:layout_marginLeft="10dp">
+
+           </Button>
+       </LinearLayout>
+
+
+
+   </LinearLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

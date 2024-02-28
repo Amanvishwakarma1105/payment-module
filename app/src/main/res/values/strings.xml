@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Smart_park</string>
+    <string name="google_pay_gateway_merchant_id">your_gateway_merchant_id_here</string>
+</resources>
